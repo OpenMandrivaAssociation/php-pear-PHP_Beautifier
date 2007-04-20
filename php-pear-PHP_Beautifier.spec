@@ -11,7 +11,7 @@ License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/PHP_Beautifier/
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
-Patch0:		php-pear-PHP_Beautifier-0.1.8-path_fix.diff
+Patch0:		php-pear-PHP_Beautifier-0.1.13-path_fix.diff
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
