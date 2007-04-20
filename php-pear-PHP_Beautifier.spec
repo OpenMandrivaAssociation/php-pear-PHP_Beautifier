@@ -5,7 +5,7 @@
 
 Summary:	%{_pearname} - beautifier for PHP
 Name:		php-pear-%{_pearname}
-Version:	0.1.8
+Version:	0.1.13
 Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
