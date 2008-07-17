@@ -6,7 +6,7 @@
 Summary:	%{_pearname} - beautifier for PHP
 Name:		php-pear-%{_pearname}
 Version:	0.1.13
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/PHP_Beautifier/
@@ -17,7 +17,7 @@ Requires(preun): php-pear
 Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	dos2unix
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 This program reformat and beautify PHP source code files
