@@ -1,0 +1,204 @@
+diff -Naur -x '*.orig' -x '*~' php-pear-PHP_Beautifier-0.1.14/package.xml php-pear-PHP_Beautifier-0.1.14-fix-path/package.xml
+--- php-pear-PHP_Beautifier-0.1.14/package.xml	2008-06-22 10:40:38.000000000 +0200
++++ php-pear-PHP_Beautifier-0.1.14-fix-path/package.xml	2009-11-21 12:46:07.000000000 +0100
+@@ -41,10 +41,10 @@
+    <file baseinstalldir="PHP" md5sum="07574b8e58ca626c7a78ed6ced5d1fc3" name="Beautifier/Batch/Output/Directory.php" role="php">
+     <tasks:replace from="@package_version@" to="version" type="package-info" />
+    </file>
+-   <file baseinstalldir="PHP" md5sum="b8e5903780758c1d31f6b1073ac68a0a" name="Beautifier/Batch/Output/DirectoryBz2.php" role="php">
++   <file baseinstalldir="PHP" md5sum="aa23359ab7ac4861c438e5c3e968d9a7" name="Beautifier/Batch/Output/DirectoryBz2.php" role="php">
+     <tasks:replace from="@package_version@" to="version" type="package-info" />
+    </file>
+-   <file baseinstalldir="PHP" md5sum="73664dadc6d10cd6338c44cb96f00764" name="Beautifier/Batch/Output/DirectoryGz.php" role="php">
++   <file baseinstalldir="PHP" md5sum="758f8caf13430c8d3ec5e0b8a696fe19" name="Beautifier/Batch/Output/DirectoryGz.php" role="php">
+     <tasks:replace from="@package_version@" to="version" type="package-info" />
+    </file>
+    <file baseinstalldir="PHP" md5sum="658afab186572ba6ba9f934be535fd77" name="Beautifier/Batch/Output/DirectoryTar.php" role="php">
+@@ -53,10 +53,10 @@
+    <file baseinstalldir="PHP" md5sum="cff3d4083ddd32b95eb6eaa52dab9c8e" name="Beautifier/Batch/Output/Files.php" role="php">
+     <tasks:replace from="@package_version@" to="version" type="package-info" />
+    </file>
+-   <file baseinstalldir="PHP" md5sum="69ab2ad716c52bc6c43cea02b328bfe2" name="Beautifier/Batch/Output/FilesBz2.php" role="php">
++   <file baseinstalldir="PHP" md5sum="955579152cfb7d8f76286ce344caeb7f" name="Beautifier/Batch/Output/FilesBz2.php" role="php">
+     <tasks:replace from="@package_version@" to="version" type="package-info" />
+    </file>
+-   <file baseinstalldir="PHP" md5sum="e0feb5408d32b47fbf6f059c279bbb99" name="Beautifier/Batch/Output/FilesGz.php" role="php">
++   <file baseinstalldir="PHP" md5sum="a77a6645c798ef51fe515ecba79c3651" name="Beautifier/Batch/Output/FilesGz.php" role="php">
+     <tasks:replace from="@package_version@" to="version" type="package-info" />
+    </file>
+    <file baseinstalldir="PHP" md5sum="45cab72fa75199cee876c91aa2bcfa9c" name="Beautifier/Batch/Output/FilesTar.php" role="php">
+@@ -92,7 +92,7 @@
+    <file baseinstalldir="PHP" md5sum="955f3b14d10d683d13e2a6fb48639d7c" name="Beautifier/StreamWrapper/Tarz.php" role="php">
+     <tasks:replace from="@package_version@" to="version" type="package-info" />
+    </file>
+-   <file baseinstalldir="PHP" md5sum="413582b8a6e2ed64eb76c1215c0989c0" name="Beautifier/Batch.php" role="php">
++   <file baseinstalldir="PHP" md5sum="207f3f85c32239214a51986a9a23feac" name="Beautifier/Batch.php" role="php">
+     <tasks:replace from="@package_version@" to="version" type="package-info" />
+    </file>
+    <file baseinstalldir="PHP" md5sum="9f79d1faec87b9e2454f19498b82dd09" name="Beautifier/Common.php" role="php">
+@@ -107,7 +107,7 @@
+    <file baseinstalldir="PHP" md5sum="8985fff47d9a730083ce5f44d76e8c4b" name="Beautifier/Filter.php" role="php">
+     <tasks:replace from="@package_version@" to="version" type="package-info" />
+    </file>
+-   <file baseinstalldir="PHP" md5sum="1bd73a52c5fd4ca6242ea1b4caa95056" name="Beautifier/StreamWrapper.php" role="php">
++   <file baseinstalldir="PHP" md5sum="e566d4f66fe461abd99745a1548b29be" name="Beautifier/StreamWrapper.php" role="php">
+     <tasks:replace from="@package_version@" to="version" type="package-info" />
+    </file>
+    <file baseinstalldir="PHP" md5sum="4425ab65000049f84bd91c4eb2eecfa7" name="Beautifier/Tokenizer.php" role="php">
+@@ -152,7 +152,7 @@
+    <file baseinstalldir="PHP" md5sum="d52daa7a89d4e0ffc2973fecd4742038" name="tests/pear_sample_file.phps" role="test">
+     <tasks:replace from="@package_version@" to="version" type="package-info" />
+    </file>
+-   <file baseinstalldir="PHP" md5sum="89b64b488052bab775ca7388ef83f630" name="Beautifier.php" role="php">
++   <file baseinstalldir="PHP" md5sum="f9814c0937802b0ca956d486aadc31b1" name="Beautifier.php" role="php">
+     <tasks:replace from="@package_version@" to="version" type="package-info" />
+    </file>
+   </dir>
+diff -Naur -x '*.orig' -x '*~' php-pear-PHP_Beautifier-0.1.14/PHP_Beautifier-0.1.14/Beautifier/Batch/Output/DirectoryBz2.php php-pear-PHP_Beautifier-0.1.14-fix-path/PHP_Beautifier-0.1.14/Beautifier/Batch/Output/DirectoryBz2.php
+--- php-pear-PHP_Beautifier-0.1.14/PHP_Beautifier-0.1.14/Beautifier/Batch/Output/DirectoryBz2.php	2008-06-22 10:40:38.000000000 +0200
++++ php-pear-PHP_Beautifier-0.1.14-fix-path/PHP_Beautifier-0.1.14/Beautifier/Batch/Output/DirectoryBz2.php	2009-11-21 12:39:42.000000000 +0100
+@@ -23,7 +23,7 @@
+ /**
+ * Include PHP_Beautifier_Batch_DirectoryTar
+ */
+-require_once ('DirectoryTar.php');
++require_once ('PHP/Beautifier/Batch/Output/DirectoryTar.php');
+ /**
+ * PHP_Beautifier_Batch_FilesGz
+ *
+@@ -45,4 +45,4 @@
+         return new Archive_Tar($sFileName.'.tar.bz2', 'bz2');
+     }
+ }
+-?>
+\ Pas de fin de ligne à la fin du fichier.
++?>
+diff -Naur -x '*.orig' -x '*~' php-pear-PHP_Beautifier-0.1.14/PHP_Beautifier-0.1.14/Beautifier/Batch/Output/DirectoryGz.php php-pear-PHP_Beautifier-0.1.14-fix-path/PHP_Beautifier-0.1.14/Beautifier/Batch/Output/DirectoryGz.php
+--- php-pear-PHP_Beautifier-0.1.14/PHP_Beautifier-0.1.14/Beautifier/Batch/Output/DirectoryGz.php	2008-06-22 10:40:38.000000000 +0200
++++ php-pear-PHP_Beautifier-0.1.14-fix-path/PHP_Beautifier-0.1.14/Beautifier/Batch/Output/DirectoryGz.php	2009-11-21 12:39:42.000000000 +0100
+@@ -23,7 +23,7 @@
+ /**
+ * Include PHP_Beautifier_Batch_DirectoryTar
+ */
+-require_once ('DirectoryTar.php');
++require_once ('PHP/Beautifier/Batch/Output/DirectoryTar.php');
+ /**
+ * PHP_Beautifier_Batch_FilesGz
+ *
+@@ -45,4 +45,4 @@
+         return new Archive_Tar($sFileName.'.tgz', 'gz');
+     }
+ }
+-?>
+\ Pas de fin de ligne à la fin du fichier.
++?>
+diff -Naur -x '*.orig' -x '*~' php-pear-PHP_Beautifier-0.1.14/PHP_Beautifier-0.1.14/Beautifier/Batch/Output/FilesBz2.php php-pear-PHP_Beautifier-0.1.14-fix-path/PHP_Beautifier-0.1.14/Beautifier/Batch/Output/FilesBz2.php
+--- php-pear-PHP_Beautifier-0.1.14/PHP_Beautifier-0.1.14/Beautifier/Batch/Output/FilesBz2.php	2008-06-22 10:40:38.000000000 +0200
++++ php-pear-PHP_Beautifier-0.1.14-fix-path/PHP_Beautifier-0.1.14/Beautifier/Batch/Output/FilesBz2.php	2009-11-21 12:39:42.000000000 +0100
+@@ -23,7 +23,7 @@
+ /**
+ * Include PHP_Beautifier_Batch_FilesGz
+ */
+-require_once 'FilesTar.php';
++require_once 'PHP/Beautifier/Batch/Output/FilesTar.php';
+ /**
+ * Handle the batch process for one/multiple php files to one tar bzip2 file
+ *
+@@ -41,4 +41,4 @@
+     protected $sExt = 'tar.bz2';
+     
+ }
+-?>
+\ Pas de fin de ligne à la fin du fichier.
++?>
+diff -Naur -x '*.orig' -x '*~' php-pear-PHP_Beautifier-0.1.14/PHP_Beautifier-0.1.14/Beautifier/Batch/Output/FilesGz.php php-pear-PHP_Beautifier-0.1.14-fix-path/PHP_Beautifier-0.1.14/Beautifier/Batch/Output/FilesGz.php
+--- php-pear-PHP_Beautifier-0.1.14/PHP_Beautifier-0.1.14/Beautifier/Batch/Output/FilesGz.php	2008-06-22 10:40:38.000000000 +0200
++++ php-pear-PHP_Beautifier-0.1.14-fix-path/PHP_Beautifier-0.1.14/Beautifier/Batch/Output/FilesGz.php	2009-11-21 12:39:42.000000000 +0100
+@@ -23,7 +23,7 @@
+ /**
+ * Include PHP_Beautifier_Batch_FilesGz
+ */
+-require_once 'FilesTar.php';
++require_once 'PHP/Beautifier/Batch/Output/FilesTar.php';
+ /**
+ * Handle the batch process for one/multiple php files to one tar gzip file
+ *
+@@ -40,4 +40,4 @@
+     protected $sCompress = 'gz';
+     protected $sExt = 'tgz';
+ }
+-?>
+\ Pas de fin de ligne à la fin du fichier.
++?>
+diff -Naur -x '*.orig' -x '*~' php-pear-PHP_Beautifier-0.1.14/PHP_Beautifier-0.1.14/Beautifier/Batch.php php-pear-PHP_Beautifier-0.1.14-fix-path/PHP_Beautifier-0.1.14/Beautifier/Batch.php
+--- php-pear-PHP_Beautifier-0.1.14/PHP_Beautifier-0.1.14/Beautifier/Batch.php	2008-06-22 10:40:38.000000000 +0200
++++ php-pear-PHP_Beautifier-0.1.14-fix-path/PHP_Beautifier-0.1.14/Beautifier/Batch.php	2009-11-21 12:39:42.000000000 +0100
+@@ -23,11 +23,11 @@
+ /**
+ * Require PHP_Beautifier_Decorator
+ */
+-require_once 'Decorator.php';
++require_once 'PHP/Beautifier/Decorator.php';
+ /**
+ * Require PHP_Beautifier_Batch_Output
+ */
+-require_once 'Batch/Output.php';
++require_once 'PHP/Beautifier/Batch/Output.php';
+ // ArrayNested->off();
+ // ArrayNested->on();
+ 
+diff -Naur -x '*.orig' -x '*~' php-pear-PHP_Beautifier-0.1.14/PHP_Beautifier-0.1.14/Beautifier/StreamWrapper.php php-pear-PHP_Beautifier-0.1.14-fix-path/PHP_Beautifier-0.1.14/Beautifier/StreamWrapper.php
+--- php-pear-PHP_Beautifier-0.1.14/PHP_Beautifier-0.1.14/Beautifier/StreamWrapper.php	2008-06-22 10:40:38.000000000 +0200
++++ php-pear-PHP_Beautifier-0.1.14-fix-path/PHP_Beautifier-0.1.14/Beautifier/StreamWrapper.php	2009-11-21 12:39:42.000000000 +0100
+@@ -49,5 +49,5 @@
+     function dir_rewinddir();
+     function dir_closedir();
+ }
+-require_once ('StreamWrapper/Tarz.php');
+-?>
+\ Pas de fin de ligne à la fin du fichier.
++require_once('PHP/Beautifier/StreamWrapper/Tarz.php');
++?>
+diff -Naur -x '*.orig' -x '*~' php-pear-PHP_Beautifier-0.1.14/PHP_Beautifier-0.1.14/Beautifier.php php-pear-PHP_Beautifier-0.1.14-fix-path/PHP_Beautifier-0.1.14/Beautifier.php
+--- php-pear-PHP_Beautifier-0.1.14/PHP_Beautifier-0.1.14/Beautifier.php	2008-06-22 10:40:38.000000000 +0200
++++ php-pear-PHP_Beautifier-0.1.14-fix-path/PHP_Beautifier-0.1.14/Beautifier.php	2009-11-21 12:39:42.000000000 +0100
+@@ -29,15 +29,15 @@
+ /**
+  * Require PHP_Beautifier_Filter
+  */
+-include_once 'Beautifier/Filter.php';
++include_once 'PHP/Beautifier/Filter.php';
+ /**
+  * Require PHP_Beautifier_Filter_Default
+  */
+-include_once 'Beautifier/Filter/Default.filter.php';
++include_once 'PHP/Beautifier/Filter/Default.filter.php';
+ /**
+  * Require PHP_Beautifier_Common
+  */
+-include_once 'Beautifier/Common.php';
++include_once 'PHP/Beautifier/Common.php';
+ /**
+  * Require Log
+  */
+@@ -45,11 +45,11 @@
+ /**
+  * Require Exceptions
+  */
+-include_once 'Beautifier/Exception.php';
++include_once 'PHP/Beautifier/Exception.php';
+ /**
+  * Require StreamWrapper
+  */
+-include_once 'Beautifier/StreamWrapper.php';
++include_once 'PHP/Beautifier/StreamWrapper.php';
+ /**
+  * PHP_Beautifier
+  *
+@@ -1426,4 +1426,4 @@
+         return $this->isPreviousTokenConstant(T_VARIABLE) or $this->isPreviousTokenConstant(T_OBJECT_OPERATOR) or ($this->isPreviousTokenConstant(T_STRING) and $this->getPreviousTokenConstant(2) == T_OBJECT_OPERATOR) or $this->getMode('double_quote');
+     }
+ }
+-?>
+\ Pas de fin de ligne à la fin du fichier.
++?>
