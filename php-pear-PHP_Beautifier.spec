@@ -5,7 +5,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.1.14
-Release:	7
+Release:	8
 Summary:	Beautifier for PHP
 
 License:	PHP License
