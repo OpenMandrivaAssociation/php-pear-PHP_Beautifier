@@ -10,7 +10,7 @@ Summary:	Beautifier for PHP
 
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/PHP_Beautifier/
+URL:		https://pear.php.net/package/PHP_Beautifier/
 Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tgz
 Patch0:		php-pear-PHP_Beautifier-0.1.14-fix-path.patch
 Requires(post): php-pear
